@@ -1,7 +1,6 @@
 @import './partials/header.css';
 @import './partials/main.css';
 @import './partials/form.css';
-@import './partials/media_queries.css';
 
 :root {
   --body-bg-color: #121214;
