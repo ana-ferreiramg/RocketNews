@@ -1,0 +1,59 @@
+main section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 10px;
+  height: 60vh;
+  max-height: 500px;
+}
+
+main .content h1 {
+  color: var(--title-color);
+  font-size: 2.4rem;
+}
+
+main .content p:first-child {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+main .content p:last-child {
+  font-size: 1.6rem;
+  filter: brightness(0.7);
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+
+main .content p:not(:last-child) {
+  margin: 20px 0;
+}
+
+main section a {
+  display: flex;
+  align-items: center;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 700;
+  width: max-content;
+  transition: 0.3s ease-in;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+main section a,
+main section a:visited {
+  color: var(--bg-button-color);
+}
+
+main section a:hover,
+main section a:active {
+  border-bottom: 2px solid var(--bg-button-color);
+  border-left: 2px solid var(--bg-button-color);
+  padding: 0 0 5px 10px;
+  color: var(--title-color);
+}
+
+main section a i {
+  margin-left: 10px;
+}

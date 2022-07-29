@@ -1,0 +1,71 @@
+@media (min-width: 768px) {
+  img {
+    width: 70%;
+  }
+
+  body {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.container {
+    max-width: 600px;
+    width: 50%;
+  }
+
+  header {
+    margin-top: 0;
+  }
+
+  main .content h1 {
+    max-width: 22ch;
+  }
+
+  main section {
+    justify-content: space-between;
+  }
+
+  form {
+    position: absolute;
+    top: 230px;
+    width: 140%;
+  }
+
+  div#banner {
+    display: block;
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  main .content h1 {
+    max-width: max-content;
+  }
+
+  main section {
+    height: 50vh;
+  }
+
+  form {
+    top: 180px;
+    width: 120%;
+  }
+}
+
+@media (min-width: 1200px) {
+  main section {
+    height: 60vh;
+    justify-content: space-around;
+  }
+
+  form {
+    top: 240px;
+  }
+}
+
+@media (min-width: 1200px) {
+  form {
+    top: 240px;
+  }
+}

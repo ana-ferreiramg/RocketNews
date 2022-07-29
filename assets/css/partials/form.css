@@ -1,0 +1,23 @@
+form legend {
+  color: var(--form-color);
+  margin-bottom: 15px;
+}
+
+form label div {
+  display: flex;
+}
+
+form input {
+  flex: 1;
+  border: none;
+  border-left: 4px solid var(--title-color);
+  outline: none;
+  padding: 12px 10px;
+}
+
+form div.btn button {
+  padding: 12px;
+  border: 1px solid var(--bg-button-color);
+  background-color: var(--bg-button-color);
+  color: var(--text-color);
+}
