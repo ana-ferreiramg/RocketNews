@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font: 400 2rem 'League Spartan', sans-serif;
+  font: 400 2.2rem 'League Spartan', sans-serif;
   background-color: var(--body-bg-color);
   color: var(--text-color);
   height: 100vh;

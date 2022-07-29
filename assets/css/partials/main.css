@@ -10,16 +10,16 @@ main section {
 
 main .content h1 {
   color: var(--title-color);
-  font-size: 2.6rem;
+  font-size: 2.8rem;
 }
 
 main .content p:first-child {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 main .content p:last-child {
-  font-size: 1.8rem;
+  font-size: 2rem;
   filter: brightness(0.7);
   margin-bottom: 20px;
   line-height: 18px;
